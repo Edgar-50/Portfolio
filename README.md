@@ -27,6 +27,7 @@ The site is built as an interactive engineering dossier rather than a convention
 - Boeing 737 NG and Embraer E-Jet aviation-system drawers
 - EASA Part-66 / Part-145, avionics, Swiss technical training and optical-training context
 - education, certifications, experience and ATS résumé
+- dedicated awards & achievements section covering NASA Space Apps, IEEE, ISS LiDAR, GDG Nairobi and IoT recognition
 - command palette, mission terminal and persistent theme controls
 
 ## Deployment
