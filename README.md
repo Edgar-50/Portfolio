@@ -12,8 +12,9 @@ The site is built as an interactive engineering dossier rather than a convention
 
 ## Portfolio scope
 
-- **50 engineering / scientific build projects**
+- **53 engineering / scientific build projects**
 - **15 separate frontier research programmes**
+- built operational systems include the Pharmacy Inventory Management System, Shwari Caregivers and EDMAS Emergency & Disaster Management System
 - project dossiers with architecture, validation, risks and roadmaps
 - research dossiers with novelty gates, baselines and experiment programmes
 - dedicated publication pipeline with clickable publication dossiers
