@@ -3236,6 +3236,186 @@ export const PROJECTS = [
       "Metrics and diagnostics",
       "Visualisation / operator interface"
     ]
+  },
+  {
+    "id": 51,
+    "slug": "pharmacy-inventory-management-system",
+    "title": "Pharmacy Inventory Management System",
+    "domain": "Software / Healthcare Operations",
+    "status": "built",
+    "level": "Built",
+    "stack": ["Java", "Swing", "MySQL", "SQL"],
+    "summary": "Desktop pharmacy inventory system for managing medicine records, stock levels, expiry tracking and day-to-day inventory operations through a structured Java and MySQL workflow.",
+    "evidence": "Existing implementation",
+    "year": "2024",
+    "objective": "Provide a reliable desktop workflow for maintaining pharmacy stock records, reducing manual inventory errors and making stock and expiry information easier to review.",
+    "architecture": [
+      "Java Swing desktop interface",
+      "Medicine and inventory records",
+      "MySQL persistence layer",
+      "Stock update workflow",
+      "Expiry tracking",
+      "Inventory search and reporting"
+    ],
+    "capabilities": [
+      "Medicine and stock record management",
+      "Inventory quantity updates",
+      "Expiry-date tracking",
+      "Database-backed CRUD operations",
+      "Searchable pharmacy inventory",
+      "Desktop operator interface"
+    ],
+    "validation": [
+      "CRUD workflow testing",
+      "Inventory update consistency checks",
+      "Database persistence checks",
+      "Expiry-data validation"
+    ],
+    "risks": [
+      "Manual data-entry errors",
+      "Duplicate medicine records",
+      "Incorrect stock adjustments",
+      "Local database backup requirements"
+    ],
+    "currentWork": "Built desktop system represented as completed portfolio work.",
+    "roadmap": [
+      "Add stronger audit logging",
+      "Add configurable low-stock notifications",
+      "Improve reporting and export workflows",
+      "Package installation and user documentation"
+    ],
+    "engineeringNotes": [
+      "Primary domain: Software / Healthcare Operations",
+      "Status: Built",
+      "Core stack: Java Swing and MySQL",
+      "Designed around practical pharmacy stock and expiry workflows"
+    ],
+    "interfaces": [
+      "Java Swing desktop UI",
+      "MySQL database",
+      "Inventory forms",
+      "Search and reporting views"
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "shwari-caregivers-platform",
+    "title": "Shwari Caregivers",
+    "domain": "Software / Care Services",
+    "status": "built",
+    "level": "Built",
+    "stack": ["Web Application", "Database", "Care Coordination"],
+    "summary": "Caregiver coordination and care-services management platform designed to organise client information, caregiver records, scheduling and service administration in one operational system.",
+    "evidence": "Existing implementation",
+    "year": "2024+",
+    "objective": "Simplify the administration of caregiving services by bringing client, caregiver and scheduling information into a single structured workflow.",
+    "architecture": [
+      "Caregiver records",
+      "Client records",
+      "Scheduling workflow",
+      "Service administration",
+      "Database persistence",
+      "Operator dashboard"
+    ],
+    "capabilities": [
+      "Caregiver profile management",
+      "Client record organisation",
+      "Care schedule coordination",
+      "Service administration workflow",
+      "Centralised operational records",
+      "Dashboard-based management"
+    ],
+    "validation": [
+      "Record creation and update testing",
+      "Schedule workflow checks",
+      "Data consistency checks",
+      "User-flow testing"
+    ],
+    "risks": [
+      "Sensitive care information",
+      "Scheduling conflicts",
+      "Data accuracy",
+      "Access-control requirements"
+    ],
+    "currentWork": "Built caregiving-management system represented as completed portfolio work.",
+    "roadmap": [
+      "Strengthen role-based access",
+      "Add notifications and scheduling reminders",
+      "Improve reporting",
+      "Expand deployment documentation"
+    ],
+    "engineeringNotes": [
+      "Primary domain: Software / Care Services",
+      "Status: Built",
+      "Focus: caregiver coordination and operational care administration",
+      "Portfolio description intentionally avoids unsupported clinical claims"
+    ],
+    "interfaces": [
+      "Caregiver management interface",
+      "Client records",
+      "Scheduling views",
+      "Administrative dashboard"
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "edmas-emergency-disaster-management-system",
+    "title": "EDMAS Emergency & Disaster Management System",
+    "domain": "Emergency Technology / IoT",
+    "status": "built",
+    "level": "Built",
+    "stack": ["Django", "React", "IoT", "REST APIs"],
+    "summary": "Emergency and disaster-management platform combining a Django backend, React interface and IoT-oriented event inputs to support incident reporting, operational awareness and coordinated response workflows.",
+    "evidence": "Existing implementation",
+    "year": "2024+",
+    "objective": "Create a central digital workflow for reporting emergencies, monitoring incidents and giving operators a clearer view of active response information.",
+    "architecture": [
+      "Incident reporting interface",
+      "Django application backend",
+      "React operations dashboard",
+      "REST API layer",
+      "IoT / sensor event inputs",
+      "Incident status and response workflow"
+    ],
+    "capabilities": [
+      "Emergency incident reporting",
+      "Incident status tracking",
+      "Operational dashboard",
+      "IoT-oriented alert inputs",
+      "Backend API workflow",
+      "Response coordination support"
+    ],
+    "validation": [
+      "Incident workflow testing",
+      "API request and response checks",
+      "Dashboard state validation",
+      "Sensor-event integration tests"
+    ],
+    "risks": [
+      "False or duplicate alerts",
+      "Network disruption during emergencies",
+      "Sensor reliability",
+      "Role and access management"
+    ],
+    "currentWork": "Built emergency-management system represented as completed portfolio work.",
+    "roadmap": [
+      "Add resilient offline / degraded-network workflows",
+      "Improve alert prioritisation",
+      "Expand response analytics",
+      "Add deployment and incident-playbook documentation"
+    ],
+    "engineeringNotes": [
+      "Primary domain: Emergency Technology / IoT",
+      "Status: Built",
+      "Core stack: Django, React, REST APIs and IoT-oriented integrations",
+      "Designed as an operational coordination system rather than a replacement for emergency services"
+    ],
+    "interfaces": [
+      "React dashboard",
+      "Django backend",
+      "REST API",
+      "IoT / sensor event interface"
+    ]
   }
 ];
 
