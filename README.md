@@ -1,55 +1,43 @@
-# Edgar Mission Control Portfolio — v16 Restored Systems Edition
+# Edgar Charles Omondi — Mission Control Portfolio v17.6
 
-This build restores the deep mission-control interaction model while retaining exactly **50 engineering / scientific-computing projects** and **15 separate frontier research programmes**.
+Live production site: https://portfolio-mu-ecru-69.vercel.app
 
-## Status model
-Projects now use only two portfolio states:
-- **Built** — implemented systems already represented as completed work.
-- **In Progress** — active engineering programmes currently being developed, benchmarked or hardened.
+GitHub repository: https://github.com/Edgar-50/Portfolio
 
-The previous `Planned` and `Active` labels have been removed from the project archive.
+## Overview
 
-## Mission dossiers
-Every project has a detailed dossier with:
-- mission objective and current engineering state
-- architecture flow and interfaces
-- core capabilities
-- validation strategy and engineering gates
-- technical stack and engineering notes
-- current roadmap / next milestone
-- known technical risks and mitigation approach
+Mission Control is a multidisciplinary engineering and research portfolio spanning software engineering, AI/ML, cybersecurity, post-quantum systems, quantitative computing, aerospace and avionics, scientific computing, and frontier research.
 
-Every research programme has a research dossier with:
-- research question
-- proposed method
-- novelty hypothesis and novelty gate
-- experiment programme
-- baseline requirements
-- reproducible paper deliverables
+The site is built as an interactive engineering dossier rather than a conventional portfolio page.
 
-## Restored unique systems
-- Bristol and Nairobi live clocks
-- mission ribbon / date / route telemetry
-- scroll progress indicator
-- mission director rotator
-- active-programme departure board
+## Portfolio scope
+
+- **50 engineering / scientific build projects**
+- **15 separate frontier research programmes**
+- project dossiers with architecture, validation, risks and roadmaps
+- research dossiers with novelty gates, baselines and experiment programmes
+- dedicated publication pipeline with clickable publication dossiers
+- QUASAR ongoing publication/research status
+- AquaLink and INFLOW-AI published-research tracking
 - recruiter and technical modes
-- 50-project searchable engineering archive
-- 15-programme frontier research lab
-- project comparison matrix
-- operations drawer
 - interactive technology constellation
-- animated NBO → BRS checkpoint route (no flight simulator)
-- experience, education, aviation systems training and credentials
-- command palette (`Ctrl/Cmd + K`)
-- mission terminal
-- persistent light / dark theme
-- contact transmission panel
+- project comparison matrix
+- Nairobi → Bristol achievement route
+- live glowing route-leg labels and airport hover panels
+- Boeing 737 NG and Embraer E-Jet aviation-system drawers
+- EASA Part-66 / Part-145, avionics, Swiss technical training and optical-training context
+- education, certifications, experience and ATS résumé
+- command palette, mission terminal and persistent theme controls
 
-The standalone Repository Evidence / GitHub telemetry section has been removed. The GitHub profile link remains available in the professional manifest for direct navigation without turning the portfolio into a repository list.
+## Deployment
 
-## Run on Windows PowerShell
-From the extracted `portfolio_v16` folder:
+The production deployment is connected directly to this GitHub repository through **Vercel**.
+
+Pushes to `main` will be picked up by the linked Vercel project.
+
+**Production:** https://portfolio-mu-ecru-69.vercel.app
+
+## Run locally
 
 ```powershell
 npm.cmd run dev
@@ -61,34 +49,8 @@ Then open:
 http://localhost:4173
 ```
 
-You can also run:
+## Author
 
-```powershell
-node server.mjs
-```
+**Edgar Charles Omondi**
 
-
-## V17 restored features
-Original-portfolio aircraft illustrations and SVG avatar (where present) extracted to local assets, flying radar background, lanyard identity, enhanced technical dossier, clickable constellation with connected nodes, achievement timeline linked to NBO–BRS map, named issuer logo-style wordmark badges and expanded credentials. ATS CV downloadable in DOCX (no tables/images/multi-column layout).
-
-Run `npm.cmd run dev` in PowerShell from the extracted mission_control_v17 directory. Open `http://localhost:4173`. This is a portfolio presentation and flight narrative, not a real-world flight simulator or an independently verified log of credential status.
-
-
-## v17.1 certification and profile update
-- Expanded credentials: Cisco CCNA, Cisco CCNP, Microsoft Data Science Professional Certification, Google Machine Learning Professional Programme, EITCA AI & ML (in progress), EC-Council Ethical Hacking, EC-Council Penetration Testing, MIT xPRO Quantum Computing, MIT Professional Education Industry 4.0, IBM Quantum Computing Processes, IBM Blockchain Development Foundations, Strathmore IoT & Embedded Systems, and HarvardX Python for Research.
-- LinkedIn is surfaced in the hero, mission card, professional manifest, contact area and ATS CV.
-- Embraer E-Jet gallery image now uses the user-provided reference URL, with the original local aircraft image as a fallback.
-- All other v17 project, research, dossier, constellation and route functionality is retained.
-
-
-## v17.3 certification branding
-Certification cards now display recognizable issuer brand marks for Cisco, Microsoft, Google, IBM, MIT and edX/HarvardX, plus branded site icons for EC-Council, EITCA, Strathmore University and Action Tutoring. Text fallbacks remain if a remote logo cannot load. LinkedIn points to https://www.linkedin.com/in/edgar-charles-mrsc-b72353202/.
-
-
-## v17.3 branding update
-- MIT certification cards now use the MIT logo URL supplied by the portfolio owner.
-- IBM certification cards now use the supplied IBM logo asset URL.
-- Microsoft Data Science certification now uses the Microsoft logo image from the official Microsoft brand/trademark source URL supplied by the portfolio owner.
-- UWE Bristol, Harvard University and Strathmore University logos are displayed in the Education section.
-- Repetitive “certificate verification on request” copy was removed. Credential copies are referenced through the LinkedIn profile instead.
-- The ATS CV remains intentionally logo-free so applicant-tracking systems can parse it cleanly.
+LinkedIn: https://www.linkedin.com/in/edgar-charles-mrsc-b72353202/
